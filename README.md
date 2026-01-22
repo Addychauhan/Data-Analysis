@@ -53,5 +53,5 @@ A desktop application built using Tkinter where users can:
 - 
 ## 🚀 How to Run
 1. Clone the repository
-2.```bash
+2. ```bash
 3. git clone https://github.com/Addychauhan/Data-Analysis.git
