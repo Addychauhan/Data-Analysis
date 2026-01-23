@@ -1,22 +1,24 @@
 # 🏦 Bank Customer Churn Prediction using Machine Learning
 
 📌 **Project Overview**
+
 This project predicts whether a bank customer is likely to churn (leave the bank) based on demographic and financial information.
 Machine learning techniques are applied to analyze customer behavior and build a predictive classification model that helps banks improve customer retention strategies.
 
 ---
 
 🎯 **Objective**
-Analyze customer data to understand churn patterns
-Predict customer churn using machine learning
-Evaluate model performance using classification metrics
-Identify key factors influencing customer attrition
+-Analyze customer data to understand churn patterns
+-Predict customer churn using machine learning
+-Evaluate model performance using classification metrics
+-Identify key factors influencing customer attrition
 
 ---
 
 📊 **Dataset Description**
-Dataset Name: Churn Modeling.csv
-Features:
+-Dataset Name: Churn Modeling.csv
+
+### 🔑 **Features**:
 Credit Score
 Geography
 Gender
@@ -27,9 +29,12 @@ Number of Products
 Has Credit Card
 Is Active Member
 Estimated Salary
-Target Variable:
-Exited (0 = Not Churned, 1 = Churned)
-Total Records: ~10,000
+
+
+### 🎯 Target Variable
+- **Exited**  
+  - `0` → Not Churned  
+  - `1` → Churned
 
 ---
 
