@@ -1,4 +1,5 @@
-###🏦 Bank Customer Churn Prediction
+##🏦 Bank Customer Churn Prediction
+
 **📌 Project Overview**
 Customer churn is a major concern for banks, as retaining existing customers is more cost-effective than acquiring new ones.
 This project focuses on predicting whether a bank customer is likely to churn (leave the bank) using machine learning techniques based on customer demographic and financial data.
