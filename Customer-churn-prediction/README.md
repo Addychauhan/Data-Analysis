@@ -95,8 +95,3 @@ cd Data-Analysis/Customer-churn-prediction
 3. Open and run the notebook
 - Open `bank_customer_churn_prediction.ipynb` in Jupyter Notebook or Google Colab
 - Run all cells sequentially to train and evaluate the model
-
-
-
-
-
