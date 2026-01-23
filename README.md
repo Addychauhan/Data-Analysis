@@ -50,11 +50,11 @@ A desktop application built using Tkinter where users can:
 - Enter CGPA
 - Click on Check Package
 - View the predicted placement package instantly
-- 
+  
 ## 🚀 How to Run
 ```bash
 1. Clone the repository
-git clone https://github.com/Addychauhan/Data-Analysis.git
+   git clone https://github.com/Addychauhan/Data-Analysis.git
 2. Navigate the Project
 3. Open and run the notebook
-Run all cells
+   Run all cells
