@@ -6,7 +6,7 @@ Machine learning techniques are applied to analyze customer behavior and build a
 
 ---
 
-🎯 **Objective**
+## 🎯 **Objective**
 - Analyze customer data to understand churn patterns
 - Predict customer churn using machine learning
 - Evaluate model performance using classification metrics
@@ -14,7 +14,7 @@ Machine learning techniques are applied to analyze customer behavior and build a
 
 ---
 
-📊 **Dataset Description**
+## 📊 **Dataset Description**
 - **Dataset Name:** Churn Modeling.csv
 - **Total Records:** ~10,000
 
@@ -38,7 +38,7 @@ Machine learning techniques are applied to analyze customer behavior and build a
 
 ---
 
-🛠️ **Tools & Technologies**
+## 🛠️ **Tools & Technologies**
 - **Programming Language:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
 - **Machine Learning:** Scikit-learn
@@ -46,7 +46,7 @@ Machine learning techniques are applied to analyze customer behavior and build a
 
 ---
 
-🔍 **Steps Performed**
+## 🔍 **Steps Performed**
 - Data loading and inspection
 - Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
@@ -57,7 +57,7 @@ Machine learning techniques are applied to analyze customer behavior and build a
 
 --- 
 
-🤖 **Model Used**
+## 🤖 **Model Used**
 - **Algorithm:**
 - Logistic Regression
 - Random Forest Classifier
@@ -77,14 +77,14 @@ Machine learning techniques are applied to analyze customer behavior and build a
 
 ---
 
-📈 **Results**
+## 📈 **Results**
 - The model successfully predicts customer churn with reasonable accuracy
 - Recall and ROC-AUC were prioritized to identify churn-prone customers
 - The analysis shows churn is influenced by factors such as age, balance, and geography
 
 ---
 
-🚀 **How to Run**
+## 🚀 **How to Run**
 ```bash
 1. Clone the repository
 git clone https://github.com/Addychauhan/Data-Analysis.git
