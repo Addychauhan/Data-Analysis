@@ -1,53 +1,75 @@
-##🏦 Bank Customer Churn Prediction
+🏦 Bank Customer Churn Prediction using Machine Learning
 
-**📌 Project Overview**
-Customer churn is a major concern for banks, as retaining existing customers is more cost-effective than acquiring new ones.
-This project focuses on predicting whether a bank customer is likely to churn (leave the bank) using machine learning techniques based on customer demographic and financial data.
+📌 **Project Overview**
+This project predicts whether a bank customer is likely to churn (leave the bank) based on demographic and financial information.
+Machine learning techniques are applied to analyze customer behavior and build a predictive classification model that helps banks improve customer retention strategies.
 
-**🎯 Objective**
-To analyze customer behavior and identify factors influencing churn
-To build a machine learning model that predicts customer churn accurately
-To evaluate model performance using standard classification metrics
+🎯 **Objective**
+Analyze customer data to understand churn patterns
+Predict customer churn using machine learning
+Evaluate model performance using classification metrics
+Identify key factors influencing customer attrition
 
-**📊 Dataset Description**
-The dataset contains customer-level information such as:
-Customer demographics (age, gender, geography)
-Financial details (balance, estimated salary)
-Account information (credit score, tenure, number of products)
-Target variable: Churn (Exited / Not Exited)
+📊 **Dataset Description**
+Dataset Name: Churn Modeling.csv
+Features:
+Credit Score
+Geography
+Gender
+Age
+Tenure
+Balance
+Number of Products
+Has Credit Card
+Is Active Member
+Estimated Salary
+Target Variable:
+Exited (0 = Not Churned, 1 = Churned)
+Total Records: ~10,000
 
-**🔍 Exploratory Data Analysis (EDA)**
-Analyzed churn distribution across different features
-Identified patterns related to age, balance, geography, and tenure
-Visualized relationships using bar plots, histograms, and count plots
-Checked class imbalance in churned vs non-churned customers
+🛠️ **Tools & Technologies**
+Programming Language: Python
+Libraries: Pandas, NumPy, Matplotlib, Seaborn
+Machine Learning: Scikit-learn
+Environment: Jupyter Notebook / Google Colab
 
-**🧹 Data Preprocessing**
-Handled missing and inconsistent values
-Encoded categorical variables
-Applied feature scaling where required
-Split data into training and testing sets
 
-**🤖 Model Building**
-Implemented Logistic Regression for churn prediction
-Trained the model on preprocessed data
-Focused on interpretability and baseline performance
+🔍 **Steps Performed**
+Data loading and inspection
+Data cleaning and preprocessing
+Exploratory Data Analysis (EDA)
+Feature encoding and scaling
+Train-test data splitting
+Model training
+Model evaluation using classification metrics
 
-📈 **Model Evaluation**
-Evaluated the model using multiple metrics:
+🤖 **Model Used**
+Algorithm: Logistic Regression, Random Forest Classifier, KNN, Decision Tree
+Problem Type: Binary Classification
+
+Evaluation Metrics:
 Accuracy
 Precision
 Recall
 F1-score
 Confusion Matrix
 ROC-AUC Score
-Special attention was given to recall, as identifying churn-prone customers is critical in business scenarios.
 
-**🛠️ Tools & Technologies**
-Programming Language: Python
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
-Machine Learning: Scikit-learn
-Environment: Jupyter Notebook / Google Colab
+📈 **Results**
+The model successfully predicts customer churn with reasonable accuracy
+Recall and ROC-AUC were prioritized to identify churn-prone customers
+The analysis shows churn is influenced by factors such as age, balance, and geography
+
+🚀 **How to Run**
+1. Clone the repository
+git clone https://github.com/Addychauhan/Data-Analysis.git
+
+2. Navigate to the project directory
+cd Data-Analysis/Customer-churn-prediction
+
+3. Open and run the notebook
+- Open `bank_customer_churn_prediction.ipynb` in Jupyter Notebook or Google Colab
+- Run all cells sequentially to train and evaluate the model
 
 
 
