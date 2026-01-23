@@ -54,4 +54,7 @@ A desktop application built using Tkinter where users can:
 ## 🚀 How to Run
 ```bash
 1. Clone the repository
-2. git clone https://github.com/Addychauhan/Data-Analysis.git
+git clone https://github.com/Addychauhan/Data-Analysis.git
+2. Navigate the Project
+3. Open and run the notebook
+Run all cells
