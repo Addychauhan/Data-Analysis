@@ -1,4 +1,4 @@
-# Student Placement package Prediction using Linear Regression
+# Student Placement Package Prediction using Linear Regression
 
 ## 📌 Project Overview
 This project predicts the placement package of a student based on their CGPA
